@@ -2,14 +2,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="stage">
-      <div className="center">
-        <div className="dot"></div>
-        <div className="dot"></div>
-        <div className="dot"></div>
-        <div className="dot"></div>
-        <div className="dot"></div>
-      </div>
+    <div className="blobs">
+      <div className="blob">4</div>
+      <div className="blob">3</div>
+      <div className="blob">2</div>
+      <div className="blob">1</div>
     </div>
   );
 }
